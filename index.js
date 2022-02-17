@@ -170,12 +170,10 @@ finally{
 run().catch(console.dir)
 
 app.get('/' , (req,res)=>{
-    res.send('Running ema-john server:')
+    res.send('Running travelmate server:')
 })
 
 app.listen(port, ()=>{
     console.log('Running on ', port)
 })
 
-//name: Ema-John
-//password: pq0rEOcNsiGWmImD
