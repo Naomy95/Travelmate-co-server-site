@@ -112,20 +112,6 @@ app.post('/details', async (req, res) => {
     res.send(users);
 })
 
-// // add orders
-//  // Add Oders API
-//  app.post('/orders', async (req, res) => {
-//     const order = req.body;
-//     const result = await orderCollection.insertOne(order);
-//     res.json(result);
-// })
-
-// app.get('/orders', async (req, res) => {
-//     const cursor = orderCollection.find({});
-//     const order = await cursor.toArray();
-//     res.send(order);
-// })
-
 
 //delete api
  // delete api
@@ -149,17 +135,7 @@ app.delete('/users/:id', async (req, res) => {
 })
 
 
-
-
-
-
-
-
 }
-
-
-
-
 
 
 finally{
